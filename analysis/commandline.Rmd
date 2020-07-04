@@ -58,7 +58,9 @@ Whenever you're in Terminal, you are "standing" in a certain file on your comput
   - This command lets you move a file/folder to a different folder
   - You can also rename files/folders using this command
  
-  - Type and enter *mv 
+  - Type and enter *mv* 
+  
+** this is a change **
   
   
 
