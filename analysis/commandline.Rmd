@@ -1,0 +1,69 @@
+---
+title: "Hands-On Training"
+date: "2020-07-02"
+output: workflowr::wflow_html
+editor_options:
+  chunk_output_type: console
+---
+
+## Command Line Basics - Terminal
+
+In this tutorial, we will learn some basic Unix/Linux commands to perform tasks in the command line. 
+The command line is an interface that allows you to store, manage, and process data. 
+
+Terminal is an app that gives you access to the command line. 
+To start, open Terminal using the search button for your computer. 
+Whenever you're in Terminal, you are "standing" in a certain file on your computer. 
+
+- pwd (present working directory)
+  - Type and enter *pwd*
+  - This will print the directory or folder you are currently in.
+
+
+- ls (list files)
+  - Type and enter *ls*
+  - This wil print all of the items in your current folder.
+
+
+- cd (change directory)
+  - This command allows you to move from folder to folder.
+  
+  - Type and enter *cd*
+  - This will bring you to your "home directory"
+  - If you type *ls*, you will see Desktop, Downloads, and the rest of the folders in there.
+  
+  - Type and enter *cd Desktop* (capitals are important!)
+  - This will bring you into your Desktop folder
+  
+  - Type and enter *cd ..*
+  - This command takes you back one folder
+  - In this case, it will take you back from your Desktop to your home directory
+  
+  - When moving to a folder, you must type out the full "path" to it
+  - For example, let's say you want to go to a folder (named "Folder") in your Desktop. 
+  - Right now, you are in your "home directory." If you type *cd Folder*, Terminal will give you an error, saying "there is no such file or directory." This is because the command line only looks in your current folder, and there is no "Folder" in your home directory
+  - Instead, you have to type *cd Desktop/Folder*. The command line looks for "Desktop" in your home directory, then for "Folder" in your Desktop.
+  
+  
+- mkdir (make directory)
+  - This command lets you create a folder in your current folder.
+  
+  - Try making a folder named "Practice" in your Desktop:
+  - First, get to your Desktop using the *cd* command
+  - Then type and enter *mkdir Practice*
+  - Use the *ls* command to see your newly made folder
+  
+  
+- mv (move/rename)
+  - This command lets you move a file/folder to a different folder
+  - You can also rename files/folders using this command
+ 
+  - Type and enter *mv 
+  
+  
+
+- [tab] (auto-completion)
+
+```{r}
+
+```
