@@ -435,7 +435,7 @@ This reproducible <a href="http://rmarkdown.rstudio.com">R Markdown</a> analysis
 </div>
 <div id="strongRMarkdownfilestronguncommittedchanges" class="panel-collapse collapse">
 <div class="panel-body">
-<p>The R Markdown is untracked by Git. To know which version of the R Markdown file created these results, you’ll want to first commit it to the Git repo. If you’re still working on the analysis, you can ignore this warning. When you’re finished, you can run <code>wflow_publish</code> to commit the R Markdown file and build the HTML.</p>
+<p>The R Markdown file has staged changes. To know which version of the R Markdown file created these results, you’ll want to first commit it to the Git repo. If you’re still working on the analysis, you can ignore this warning. When you’re finished, you can run <code>wflow_publish</code> to commit the R Markdown file and build the HTML.</p>
 </div>
 </div>
 </div>
@@ -502,16 +502,16 @@ This reproducible <a href="http://rmarkdown.rstudio.com">R Markdown</a> analysis
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomlvairusHandsonTrainingtreebebd6f164040b68b1f9928bdf4a824d3607594c8targetblankbebd6f1a"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/lvairus/Hands-on-Training/tree/bebd6f164040b68b1f9928bdf4a824d3607594c8" target="_blank">bebd6f1</a> </a>
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomlvairusHandsonTrainingtreee86e1dea2aa1765f3f32656c9b328f35618436e3targetblanke86e1dea"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/lvairus/Hands-on-Training/tree/e86e1dea2aa1765f3f32656c9b328f35618436e3" target="_blank">e86e1de</a> </a>
 </p>
 </div>
-<div id="strongRepositoryversionstrongahrefhttpsgithubcomlvairusHandsonTrainingtreebebd6f164040b68b1f9928bdf4a824d3607594c8targetblankbebd6f1a" class="panel-collapse collapse">
+<div id="strongRepositoryversionstrongahrefhttpsgithubcomlvairusHandsonTrainingtreee86e1dea2aa1765f3f32656c9b328f35618436e3targetblanke86e1dea" class="panel-collapse collapse">
 <div class="panel-body">
 <p>
 Great! You are using Git for version control. Tracking code development and connecting the code version to the results is critical for reproducibility.
 </p>
 <p>
-The results in this page were generated with repository version <a href="https://github.com/lvairus/Hands-on-Training/tree/bebd6f164040b68b1f9928bdf4a824d3607594c8" target="_blank">bebd6f1</a>. See the <em>Past versions</em> tab to see a history of the changes made to the R Markdown and HTML files.
+The results in this page were generated with repository version <a href="https://github.com/lvairus/Hands-on-Training/tree/e86e1dea2aa1765f3f32656c9b328f35618436e3" target="_blank">e86e1de</a>. See the <em>Past versions</em> tab to see a history of the changes made to the R Markdown and HTML files.
 </p>
 <p>
 Note that you need to be careful to ensure that all relevant files for the analysis have been committed to Git prior to generating the results (you can use <code>wflow_publish</code> or <code>wflow_git_commit</code>). workflowr only checks the R Markdown file, but you know if there are other scripts or data files that it depends on. Below is the status of the Git repository when the results were generated:
@@ -522,7 +522,13 @@ Ignored files:
     Ignored:    .Rproj.user/
 
 Untracked files:
-    Untracked:  analysis/commandline.Rmd
+    Untracked:  Folder/
+
+Unstaged changes:
+    Modified:   analysis/commandline.Rmd
+
+Staged changes:
+    Modified:   analysis/commandline.Rmd
 
 </code></pre>
 <p>
@@ -535,60 +541,266 @@ Note that any generated files, e.g. HTML, png, CSS, etc., are not included in t
 <hr>
 </div>
 <div id="versions" class="tab-pane fade">
+
 <p>
-There are no past versions. Publish this analysis with <code>wflow_publish()</code> to start tracking its development.
+These are the previous versions of the repository in which changes were made to the R Markdown (<code>analysis/commandline.Rmd</code>) and HTML (<code>docs/commandline.html</code>) files. If you’ve configured a remote Git repository (see <code>?wflow_git_remote</code>), click on the hyperlinks in the table below to view the files as they were in that past version.
 </p>
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+File
+</th>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+<th>
+Message
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+Rmd
+</td>
+<td>
+<a href="https://github.com/lvairus/Hands-on-Training/blob/e86e1dea2aa1765f3f32656c9b328f35618436e3/analysis/commandline.Rmd" target="_blank">e86e1de</a>
+</td>
+<td>
+Laura Vairus
+</td>
+<td>
+2020-07-04
+</td>
+<td>
+Change
+</td>
+</tr>
+<tr>
+<td>
+Rmd
+</td>
+<td>
+<a href="https://github.com/lvairus/Hands-on-Training/blob/48182633863e3fe5dfe811d5229575818ab6316b/analysis/commandline.Rmd" target="_blank">4818263</a>
+</td>
+<td>
+HomeUser
+</td>
+<td>
+2020-07-04
+</td>
+<td>
+command line tutorial
+</td>
+</tr>
+<tr>
+<td>
+html
+</td>
+<td>
+<a href="https://rawcdn.githack.com/lvairus/Hands-on-Training/48182633863e3fe5dfe811d5229575818ab6316b/docs/commandline.html" target="_blank">4818263</a>
+</td>
+<td>
+HomeUser
+</td>
+<td>
+2020-07-04
+</td>
+<td>
+command line tutorial
+</td>
+</tr>
+</tbody>
+</table>
+</div>
 <hr>
 </div>
 </div>
 </div>
 <div id="command-line-basics---terminal" class="section level2">
 <h2>Command Line Basics - Terminal</h2>
-<p>In this tutorial, we will learn some basic Unix/Linux commands to perform tasks in the command line. The command line is an interface that allows you to store, manage, and process data.</p>
-<p>Terminal is an app that gives you access to the command line. To start, open Terminal using the search button for your computer. Whenever you’re in Terminal, you are “standing” in a certain file on your computer.</p>
+<p>In this tutorial, we will learn some basic Unix/Linux commands to perform tasks in the command line. <br/> The command line is an interface that allows you to store, manage, and process data. <br/> Terminal is an app that gives you access to the command line. <br/></p>
+<p>(Note: This tutorial was made for Mac users. For Windows users, follow the tutorial <a href="file:///Users/homeuser/Github/Hands-on-Training/docs/commandline.html#For_Windows_Users">here</a>) <br/></p>
+<p>To start, open Terminal using the computer’s search button. <br/> Whenever you’re in Terminal, you are “standing” in a certain file on your computer. <br/> From there, you can move around folders, create files, and much more. <br/></p>
+<p>For now, here are a few basic commands and their functions to get you started:</p>
+<table>
+<colgroup>
+<col width="16%" />
+<col width="29%" />
+<col width="53%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Command</th>
+<th>Denotation</th>
+<th>Function</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>pwd</strong></td>
+<td>(present working directory)</td>
+<td>shows you the folder you are currently in</td>
+</tr>
+<tr class="even">
+<td><strong>ls</strong></td>
+<td>(list files)</td>
+<td>lists all of the items in your current folder</td>
+</tr>
+<tr class="odd">
+<td><strong>cd</strong></td>
+<td>(change directory)</td>
+<td>move from folder to folder</td>
+</tr>
+<tr class="even">
+<td><strong>mkdir</strong></td>
+<td>(make directory)</td>
+<td>creates a folder in your current folder</td>
+</tr>
+<tr class="odd">
+<td><strong>touch</strong></td>
+<td>(touch)</td>
+<td>creates a file</td>
+</tr>
+<tr class="even">
+<td><strong>mv</strong></td>
+<td>(move/rename)</td>
+<td>moves or renames files/folders</td>
+</tr>
+<tr class="odd">
+<td><strong>cp</strong></td>
+<td>(copy)</td>
+<td>copies a file to a new location</td>
+</tr>
+<tr class="even">
+<td><strong>cp -r</strong></td>
+<td>(copy recursive)</td>
+<td>copies a folder and everything in it to a new location</td>
+</tr>
+<tr class="odd">
+<td><strong>rm</strong></td>
+<td>(remove here)</td>
+<td>deletes a file</td>
+</tr>
+<tr class="even">
+<td><strong>rm -rf</strong></td>
+<td>(remove here recursive force)</td>
+<td>deletes a folder</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="hands-on-practice" class="section level2">
+<h2>Hands-On Practice</h2>
 <ul>
-<li>pwd (present working directory)
+<li>Follow along the commands on Terminal to practice<br />
+<br/></li>
+</ul>
+<p>Find out what folder you are currently in</p>
+<pre class="bash"><code>pwd</code></pre>
+<p><br/></p>
+<p>Find out what files/folders you have in that folder</p>
+<pre class="bash"><code>ls</code></pre>
+<p><br/></p>
+<p>Go back one folder</p>
+<pre class="bash"><code>cd ..</code></pre>
 <ul>
-<li>Type and enter <em>pwd</em></li>
-<li>This will print the directory or folder you are currently in.</li>
-</ul></li>
-<li>ls (list files)
+<li><em>cd ..</em> will take you back to the parent folder of the one you are currently in<br />
+<br/></li>
+</ul>
+<p>Go to your home directory</p>
+<pre class="bash"><code>cd</code></pre>
 <ul>
-<li>Type and enter <em>ls</em></li>
-<li>This wil print all of the items in your current folder.</li>
-</ul></li>
-<li>cd (change directory)
+<li><em>cd ~</em> will have the same effect<br />
+<br/></li>
+</ul>
+<p>Go into your Desktop folder</p>
+<pre class="bash"><code>cd ~/Desktop/</code></pre>
 <ul>
-<li><p>This command allows you to move from folder to folder.</p></li>
-<li>Type and enter <em>cd</em></li>
-<li>This will bring you to your “home directory”</li>
-<li><p>If you type <em>ls</em>, you will see Desktop, Downloads, and the rest of the folders in there.</p></li>
-<li>Type and enter <em>cd Desktop</em> (capitals are important!)</li>
-<li><p>This will bring you into your Desktop folder</p></li>
-<li>Type and enter <em>cd ..</em></li>
-<li>This command takes you back one folder</li>
-<li><p>In this case, it will take you back from your Desktop to your home directory</p></li>
+<li>The command line is case sensitive, so capitals are important!<br />
+<br/></li>
+</ul>
+<p>Make a folder named “Folder” in your Desktop</p>
+<pre class="bash"><code>mkdir Folder</code></pre>
+<p><br/></p>
+<p>Make a text file named “file.txt”</p>
+<pre class="bash"><code>touch file.txt</code></pre>
+<p><br/></p>
+<p>Move “file.txt” into “Folder”</p>
+<pre class="bash"><code>mv file.txt Folder/</code></pre>
+<ul>
+<li><em>mv</em> works for moving both files and folders<br />
+<br/></li>
+</ul>
+<p>Rename the file to “file2.txt”</p>
+<pre class="bash"><code>mv file.txt file2.txt</code></pre>
+<ul>
+<li>Remember you have to enter “Folder” to work with your file<br />
+<br/></li>
+</ul>
+<p>Make a copy of “file2.txt” and move it to your Documents</p>
+<pre class="bash"><code>cp file2.txt ~/Documents/file2.txt</code></pre>
+<ul>
+<li>To copy files, you must enter the name of the file you want to copy, a space, and then the path to where you want to move it.</li>
+<li>the <em>..</em> takes the file from the Desktop to the home directory, it’s parent folder; into the Documents folder; and drops it inside<br />
+<br/></li>
+</ul>
+<p>Copy “Folder” and the file inside it to your Documents</p>
+<pre class="bash"><code>cp -r Folder ../Documents/Folder</code></pre>
+<ul>
+<li>Remember you have to go to your Desktop to work with “Folder”</li>
+<li>The <em>-r</em> (recursive) copies everything inside the folder</li>
+<li>If you don’t use <em>-r</em>, the command line will give you an error saying “Folder is a directory (not copied)”<br />
+<br/></li>
+</ul>
+<p>Delete the file2.txt that you copied into Documents</p>
+<pre class="bash"><code>rm file2.txt</code></pre>
+<p><br/></p>
+<p>Delete the “Folder” that you copied into Documents</p>
+<pre class="bash"><code>rm -rf Folder</code></pre>
+<ul>
+<li><em>-rf</em> stands for “recusive” and “force”</li>
+<li>Recursive deletes everything inside the folder</li>
+<li>Force forces the system to delete the folder. This is a safety feature to make sure you don’t accidentally delete anything</li>
+<li>REMEMBER: Be careful whenever you delete a file/folder because you can’t undo it; Once it’s gone, it’s gone<br />
+<br/></li>
+</ul>
+</div>
+<div id="extra-notes" class="section level2">
+<h2>Extra Notes</h2>
+<ul>
+<li>Paths
+<ul>
 <li>When moving to a folder, you must type out the full “path” to it</li>
 <li>For example, let’s say you want to go to a folder (named “Folder”) in your Desktop.</li>
 <li>Right now, you are in your “home directory.” If you type <em>cd Folder</em>, Terminal will give you an error, saying “there is no such file or directory.” This is because the command line only looks in your current folder, and there is no “Folder” in your home directory</li>
-<li><p>Instead, you have to type <em>cd Desktop/Folder</em>. The command line looks for “Desktop” in your home directory, then for “Folder” in your Desktop.</p></li>
+<li>Instead, you have to type <em>cd Desktop/Folder</em>. The command line looks for “Desktop” in your home directory, then for “Folder” in your Desktop. <br/></li>
 </ul></li>
-<li>mkdir (make directory)
+<li>Tab (auto-completion)
 <ul>
-<li><p>This command lets you create a folder in your current folder.</p></li>
-<li>Try making a folder named “Practice” in your Desktop:</li>
-<li>First, get to your Desktop using the <em>cd</em> command</li>
-<li>Then type and enter <em>mkdir Practice</em></li>
-<li><p>Use the <em>ls</em> command to see your newly made folder</p></li>
+<li>Pressing tab can be extremely helpful and time-saving</li>
+<li>After typing in the first few letters of a file/folder you want to interact with, pressing tab will autocomplete the name of it</li>
+<li>In the case of mutiple files/folders with similar starting letters, pressing tab twice will print a list of the possiblilities</li>
+<li>If tab doesn’t seem to work, that might indicate that you’re in the wrong folder <br/></li>
 </ul></li>
-<li>mv (move/rename)
+<li>Arrow Keys
 <ul>
-<li>This command lets you move a file/folder to a different folder</li>
-<li><p>You can also rename files/folders using this command</p></li>
-<li><p>Type and enter *mv</p></li>
+<li>This is another time-saving trick</li>
+<li>You can use the up and down keys to copy in previous commands into you current line</li>
+<li>This can be helpful if you had just a one-letter typo in a long, complicated, previous command</li>
 </ul></li>
-<li>[tab] (auto-completion)</li>
 </ul>
+</div>
+<div id="for-windows-users" class="section level2">
+<h2>For Windows Users</h2>
 <br>
 <p>
 <button type="button" class="btn btn-default btn-workflowr btn-workflowr-sessioninfo" data-toggle="collapse" data-target="#workflowr-sessioninfo" style="display: block;">
@@ -612,14 +824,15 @@ attached base packages:
 [1] stats     graphics  grDevices utils     datasets  methods   base     
 
 loaded via a namespace (and not attached):
- [1] Rcpp_1.0.4.6    rstudioapi_0.11 knitr_1.29      magrittr_1.5   
- [5] workflowr_1.6.2 R6_2.4.1        rlang_0.4.6     stringr_1.4.0  
- [9] tools_4.0.2     xfun_0.15       git2r_0.27.1    htmltools_0.5.0
-[13] ellipsis_0.3.1  yaml_2.2.1      digest_0.6.25   rprojroot_1.3-2
-[17] tibble_3.0.1    lifecycle_0.2.0 crayon_1.3.4    later_1.1.0.1  
-[21] vctrs_0.3.1     promises_1.1.1  fs_1.4.2        glue_1.4.1     
-[25] evaluate_0.14   rmarkdown_2.3   stringi_1.4.6   compiler_4.0.2 
-[29] pillar_1.4.4    backports_1.1.8 httpuv_1.5.4    pkgconfig_2.0.3</code></pre>
+ [1] Rcpp_1.0.4.6    rstudioapi_0.11 whisker_0.4     knitr_1.29     
+ [5] magrittr_1.5    workflowr_1.6.2 R6_2.4.1        rlang_0.4.6    
+ [9] stringr_1.4.0   tools_4.0.2     xfun_0.15       git2r_0.27.1   
+[13] htmltools_0.5.0 ellipsis_0.3.1  yaml_2.2.1      digest_0.6.25  
+[17] rprojroot_1.3-2 tibble_3.0.1    lifecycle_0.2.0 crayon_1.3.4   
+[21] later_1.1.0.1   vctrs_0.3.1     promises_1.1.1  fs_1.4.2       
+[25] glue_1.4.1      evaluate_0.14   rmarkdown_2.3   stringi_1.4.6  
+[29] compiler_4.0.2  pillar_1.4.4    backports_1.1.8 httpuv_1.5.4   
+[33] pkgconfig_2.0.3</code></pre>
 </div>
 </div>
 
