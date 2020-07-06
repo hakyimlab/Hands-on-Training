@@ -1,5 +1,6 @@
 ---
 title: "Hands-On Training"
+author: "Laura Vairus"
 date: "2020-07-02"
 output: workflowr::wflow_html
 editor_options:
@@ -45,7 +46,7 @@ Command       |  Denotation           |   Function
 - Follow along the commands on Terminal to practice  
 <br/> 
 
-Find out what folder you are currently in
+First, find out what folder you are currently in
 ```{bash eval = FALSE} 
 pwd
 ```  
