@@ -1,5 +1,5 @@
 ---
-title: "Hands-On Training: RStudio"
+title: "Hands-On Training: R"
 author: "Laura Vairus"
 date: "2020-07-05"
 output: workflowr::wflow_html
@@ -7,12 +7,12 @@ editor_options:
   chunk_output_type: console
 ---
 
-## RStudio Basics
+## R Basics
 
 Swirl is a great and easy way to get you started with R. Install and open it by clicking the green arrow on the right.
 
 Install Swirl Package:
-```{r Swirl}
+```{r Swirl, eval = FALSE}
 install.packages("swirl")
 library("swirl")
 swirl()

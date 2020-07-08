@@ -11,9 +11,9 @@
 
 <meta name="author" content="Laura Vairus" />
 
-<meta name="date" content="2020-07-02" />
+<meta name="date" content="2020-07-05" />
 
-<title>Hands-On Training: Command Line</title>
+<title>Hands-On Training: R</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -386,16 +386,16 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">Hands-On Training: Command Line</h1>
+<h1 class="title toc-ignore">Hands-On Training: R</h1>
 <h4 class="author">Laura Vairus</h4>
-<h4 class="date">2020-07-02</h4>
+<h4 class="date">2020-07-05</h4>
 
 </div>
 
 
 <p>
 <button type="button" class="btn btn-default btn-workflowr btn-workflowr-report" data-toggle="collapse" data-target="#workflowr-report">
-<span class="glyphicon glyphicon-list" aria-hidden="true"></span> workflowr <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span>
+<span class="glyphicon glyphicon-list" aria-hidden="true"></span> workflowr <span class="glyphicon glyphicon-exclamation-sign text-danger" aria-hidden="true"></span>
 </button>
 </p>
 <div id="workflowr-report" class="collapse">
@@ -404,7 +404,7 @@ div.tocify {
 <a data-toggle="tab" href="#summary">Summary</a>
 </li>
 <li>
-<a data-toggle="tab" href="#checks"> Checks <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> </a>
+<a data-toggle="tab" href="#checks"> Checks <span class="glyphicon glyphicon-exclamation-sign text-danger" aria-hidden="true"></span> </a>
 </li>
 <li>
 <a data-toggle="tab" href="#versions">Past versions</a>
@@ -416,7 +416,7 @@ div.tocify {
 <strong>Last updated:</strong> 2020-07-08
 </p>
 <p>
-<strong>Checks:</strong> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> 7 <span class="glyphicon glyphicon-exclamation-sign text-danger" aria-hidden="true"></span> 0
+<strong>Checks:</strong> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> 6 <span class="glyphicon glyphicon-exclamation-sign text-danger" aria-hidden="true"></span> 1
 </p>
 <p>
 <strong>Knit directory:</strong> <code>Hands-on-Training/</code> <span class="glyphicon glyphicon-question-sign" aria-hidden="true" title="This is the local directory in which the code in this file was executed."> </span>
@@ -432,12 +432,12 @@ This reproducible <a href="http://rmarkdown.rstudio.com">R Markdown</a> analysis
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRMarkdownfilestronguptodate"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>R Markdown file:</strong> up-to-date </a>
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRMarkdownfilestronguncommittedchanges"> <span class="glyphicon glyphicon-exclamation-sign text-danger" aria-hidden="true"></span> <strong>R Markdown file:</strong> uncommitted changes </a>
 </p>
 </div>
-<div id="strongRMarkdownfilestronguptodate" class="panel-collapse collapse">
+<div id="strongRMarkdownfilestronguncommittedchanges" class="panel-collapse collapse">
 <div class="panel-body">
-<p>Great! Since the R Markdown file has been committed to the Git repository, you know the exact version of the code that produced these results.</p>
+<p>The R Markdown file has unstaged changes. To know which version of the R Markdown file created these results, you’ll want to first commit it to the Git repo. If you’re still working on the analysis, you can ignore this warning. When you’re finished, you can run <code>wflow_publish</code> to commit the R Markdown file and build the HTML.</p>
 </div>
 </div>
 </div>
@@ -544,7 +544,7 @@ Note that any generated files, e.g. HTML, png, CSS, etc., are not included in t
 <div id="versions" class="tab-pane fade">
 
 <p>
-These are the previous versions of the repository in which changes were made to the R Markdown (<code>analysis/commandline.Rmd</code>) and HTML (<code>docs/commandline.html</code>) files. If you’ve configured a remote Git repository (see <code>?wflow_git_remote</code>), click on the hyperlinks in the table below to view the files as they were in that past version.
+These are the previous versions of the repository in which changes were made to the R Markdown (<code>analysis/rbasics.Rmd</code>) and HTML (<code>docs/rbasics.html</code>) files. If you’ve configured a remote Git repository (see <code>?wflow_git_remote</code>), click on the hyperlinks in the table below to view the files as they were in that past version.
 </p>
 <div class="table-responsive">
 <table class="table table-condensed table-hover">
@@ -573,24 +573,7 @@ Message
 Rmd
 </td>
 <td>
-<a href="https://github.com/lvairus/Hands-on-Training/blob/cb1b68f074599cc0ac88b284d46ad2ba00345ed0/analysis/commandline.Rmd" target="_blank">cb1b68f</a>
-</td>
-<td>
-Laura Vairus
-</td>
-<td>
-2020-07-08
-</td>
-<td>
-edits
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/lvairus/Hands-on-Training/cb1b68f074599cc0ac88b284d46ad2ba00345ed0/docs/commandline.html" target="_blank">cb1b68f</a>
+<a href="https://github.com/lvairus/Hands-on-Training/blob/cb1b68f074599cc0ac88b284d46ad2ba00345ed0/analysis/rbasics.Rmd" target="_blank">cb1b68f</a>
 </td>
 <td>
 Laura Vairus
@@ -607,7 +590,7 @@ edits
 Rmd
 </td>
 <td>
-<a href="https://github.com/lvairus/Hands-on-Training/blob/80627dc9c7ee970ea98e5230329d06ac650ded01/analysis/commandline.Rmd" target="_blank">80627dc</a>
+<a href="https://github.com/lvairus/Hands-on-Training/blob/80627dc9c7ee970ea98e5230329d06ac650ded01/analysis/rbasics.Rmd" target="_blank">80627dc</a>
 </td>
 <td>
 Laura Vairus
@@ -619,91 +602,6 @@ Laura Vairus
 change
 </td>
 </tr>
-<tr>
-<td>
-Rmd
-</td>
-<td>
-<a href="https://github.com/lvairus/Hands-on-Training/blob/e152ba2761dfc970c696f869af92e63b6ccd1a9b/analysis/commandline.Rmd" target="_blank">e152ba2</a>
-</td>
-<td>
-Laura Vairus
-</td>
-<td>
-2020-07-04
-</td>
-<td>
-Command Line Basics
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/lvairus/Hands-on-Training/e152ba2761dfc970c696f869af92e63b6ccd1a9b/docs/commandline.html" target="_blank">e152ba2</a>
-</td>
-<td>
-Laura Vairus
-</td>
-<td>
-2020-07-04
-</td>
-<td>
-Command Line Basics
-</td>
-</tr>
-<tr>
-<td>
-Rmd
-</td>
-<td>
-<a href="https://github.com/lvairus/Hands-on-Training/blob/e86e1dea2aa1765f3f32656c9b328f35618436e3/analysis/commandline.Rmd" target="_blank">e86e1de</a>
-</td>
-<td>
-Laura Vairus
-</td>
-<td>
-2020-07-04
-</td>
-<td>
-Change
-</td>
-</tr>
-<tr>
-<td>
-Rmd
-</td>
-<td>
-<a href="https://github.com/lvairus/Hands-on-Training/blob/48182633863e3fe5dfe811d5229575818ab6316b/analysis/commandline.Rmd" target="_blank">4818263</a>
-</td>
-<td>
-HomeUser
-</td>
-<td>
-2020-07-04
-</td>
-<td>
-command line tutorial
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/lvairus/Hands-on-Training/48182633863e3fe5dfe811d5229575818ab6316b/docs/commandline.html" target="_blank">4818263</a>
-</td>
-<td>
-HomeUser
-</td>
-<td>
-2020-07-04
-</td>
-<td>
-command line tutorial
-</td>
-</tr>
 </tbody>
 </table>
 </div>
@@ -711,182 +609,14 @@ command line tutorial
 </div>
 </div>
 </div>
-<div id="command-line-basics---terminal" class="section level2">
-<h2>Command Line Basics - Terminal</h2>
-<p>In this tutorial, we will learn some basic Unix/Linux commands to perform tasks in the command line. <br/> The command line is an interface that allows you to store, manage, and process data. <br/> Terminal is an app that gives you access to the command line. <br/></p>
-<p>(Note: This tutorial was made for Mac users. For Windows users, follow the tutorial <a href="file:///Users/homeuser/Github/Hands-on-Training/docs/commandline.html#For_Windows_Users">here</a>) <br/></p>
-<p>To start, open Terminal using the computer’s search button. <br/> Whenever you’re in Terminal, you are “standing” in a certain file on your computer. <br/> From there, you can move around folders, create files, and much more. <br/></p>
-<p>For now, here are a few basic commands and their functions to get you started:</p>
-<table>
-<colgroup>
-<col width="16%" />
-<col width="29%" />
-<col width="53%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Command</th>
-<th>Denotation</th>
-<th>Function</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>pwd</strong></td>
-<td>(present working directory)</td>
-<td>shows you the folder you are currently in</td>
-</tr>
-<tr class="even">
-<td><strong>ls</strong></td>
-<td>(list files)</td>
-<td>lists all of the items in your current folder</td>
-</tr>
-<tr class="odd">
-<td><strong>cd</strong></td>
-<td>(change directory)</td>
-<td>move from folder to folder</td>
-</tr>
-<tr class="even">
-<td><strong>mkdir</strong></td>
-<td>(make directory)</td>
-<td>creates a folder in your current folder</td>
-</tr>
-<tr class="odd">
-<td><strong>touch</strong></td>
-<td>(touch)</td>
-<td>creates a file</td>
-</tr>
-<tr class="even">
-<td><strong>mv</strong></td>
-<td>(move/rename)</td>
-<td>moves or renames files/folders</td>
-</tr>
-<tr class="odd">
-<td><strong>cp</strong></td>
-<td>(copy)</td>
-<td>copies a file to a new location</td>
-</tr>
-<tr class="even">
-<td><strong>cp -r</strong></td>
-<td>(copy recursive)</td>
-<td>copies a folder and everything in it to a new location</td>
-</tr>
-<tr class="odd">
-<td><strong>rm</strong></td>
-<td>(remove here)</td>
-<td>deletes a file</td>
-</tr>
-<tr class="even">
-<td><strong>rm -rf</strong></td>
-<td>(remove here recursive force)</td>
-<td>deletes a folder</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div id="hands-on-practice" class="section level2">
-<h2>Hands-On Practice</h2>
-<ul>
-<li>Follow along the commands on Terminal to practice<br />
-<br/></li>
-</ul>
-<p>First, find out what folder you are currently in</p>
-<pre class="bash"><code>pwd</code></pre>
-<p><br/></p>
-<p>Find out what files/folders you have in that folder</p>
-<pre class="bash"><code>ls</code></pre>
-<p><br/></p>
-<p>Go back one folder</p>
-<pre class="bash"><code>cd ..</code></pre>
-<ul>
-<li><em>cd ..</em> will take you back to the parent folder of the one you are currently in<br />
-<br/></li>
-</ul>
-<p>Go to your home directory</p>
-<pre class="bash"><code>cd</code></pre>
-<ul>
-<li><em>cd ~</em> will have the same effect<br />
-<br/></li>
-</ul>
-<p>Go into your Desktop folder</p>
-<pre class="bash"><code>cd ~/Desktop/</code></pre>
-<ul>
-<li>The command line is case sensitive, so capitals are important!<br />
-<br/></li>
-</ul>
-<p>Make a folder named “Folder” in your Desktop</p>
-<pre class="bash"><code>mkdir Folder</code></pre>
-<p><br/></p>
-<p>Make a text file named “file.txt”</p>
-<pre class="bash"><code>touch file.txt</code></pre>
-<p><br/></p>
-<p>Move “file.txt” into “Folder”</p>
-<pre class="bash"><code>mv file.txt Folder/</code></pre>
-<ul>
-<li><em>mv</em> works for moving both files and folders<br />
-<br/></li>
-</ul>
-<p>Rename the file to “file2.txt”</p>
-<pre class="bash"><code>mv file.txt file2.txt</code></pre>
-<ul>
-<li>Remember you have to enter “Folder” to work with your file<br />
-<br/></li>
-</ul>
-<p>Make a copy of “file2.txt” and move it to your Documents</p>
-<pre class="bash"><code>cp file2.txt ~/Documents/file2.txt</code></pre>
-<ul>
-<li>To copy files, you must enter the name of the file you want to copy, a space, and then the path to where you want to move it.</li>
-<li>the <em>..</em> takes the file from the Desktop to the home directory, it’s parent folder; into the Documents folder; and drops it inside<br />
-<br/></li>
-</ul>
-<p>Copy “Folder” and the file inside it to your Documents</p>
-<pre class="bash"><code>cp -r Folder ../Documents/Folder</code></pre>
-<ul>
-<li>Remember you have to go to your Desktop to work with “Folder”</li>
-<li>The <em>-r</em> (recursive) copies everything inside the folder</li>
-<li>If you don’t use <em>-r</em>, the command line will give you an error saying “Folder is a directory (not copied)”<br />
-<br/></li>
-</ul>
-<p>Delete the file2.txt that you copied into Documents</p>
-<pre class="bash"><code>rm file2.txt</code></pre>
-<p><br/></p>
-<p>Delete the “Folder” that you copied into Documents</p>
-<pre class="bash"><code>rm -rf Folder</code></pre>
-<ul>
-<li><em>-rf</em> stands for “recusive” and “force”</li>
-<li>Recursive deletes everything inside the folder</li>
-<li>Force forces the system to delete the folder. This is a safety feature to make sure you don’t accidentally delete anything</li>
-<li>REMEMBER: Be careful whenever you delete a file/folder because you can’t undo it; Once it’s gone, it’s gone<br />
-<br/></li>
-</ul>
-</div>
-<div id="extra-notes" class="section level2">
-<h2>Extra Notes</h2>
-<ul>
-<li>Paths
-<ul>
-<li>When moving to a folder, you must type out the full “path” to it</li>
-<li>For example, let’s say you want to go to a folder (named “Folder”) in your Desktop.</li>
-<li>Right now, you are in your “home directory.” If you type <em>cd Folder</em>, Terminal will give you an error, saying “there is no such file or directory.” This is because the command line only looks in your current folder, and there is no “Folder” in your home directory</li>
-<li>Instead, you have to type <em>cd Desktop/Folder</em>. The command line looks for “Desktop” in your home directory, then for “Folder” in your Desktop. <br/></li>
-</ul></li>
-<li>Tab (auto-completion)
-<ul>
-<li>Pressing tab can be extremely helpful and time-saving</li>
-<li>After typing in the first few letters of a file/folder you want to interact with, pressing tab will autocomplete the name of it</li>
-<li>In the case of mutiple files/folders with similar starting letters, pressing tab twice will print a list of the possiblilities</li>
-<li>If tab doesn’t seem to work, that might indicate that you’re in the wrong folder <br/></li>
-</ul></li>
-<li>Arrow Keys
-<ul>
-<li>This is another time-saving trick</li>
-<li>You can use the up and down keys to copy in previous commands into you current line</li>
-<li>This can be helpful if you had just a one-letter typo in a long, complicated, previous command</li>
-</ul></li>
-</ul>
-</div>
-<div id="for-windows-users" class="section level2">
-<h2>For Windows Users</h2>
+<div id="r-basics" class="section level2">
+<h2>R Basics</h2>
+<p>Swirl is a great and easy way to get you started with R. Install and open it by clicking the green arrow on the right.</p>
+<p>Install Swirl Package:</p>
+<pre class="r"><code>install.packages(&quot;swirl&quot;)
+library(&quot;swirl&quot;)
+swirl()</code></pre>
+<p>Once you enter your username, it prompts you to choose a course to install. Choose 1 for “R Programming” to learn the basics. Then, enter 1 again and it will take you to a menu of courses you can choose from.</p>
 </div>
 <div id="quiz" class="section level2">
 <h2>Quiz</h2>
