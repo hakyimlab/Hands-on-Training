@@ -1,5 +1,5 @@
 ---
-title: "rbasics"
+title: "Hands-On Training: RStudio"
 author: "Laura Vairus"
 date: "2020-07-05"
 output: workflowr::wflow_html
@@ -7,9 +7,20 @@ editor_options:
   chunk_output_type: console
 ---
 
-## Introduction
+## RStudio Basics
 
-```{r}
+Swirl is a great and easy way to get you started with R. Install and open it by clicking the green arrow on the right.
 
+Install Swirl Package:
+```{r Swirl}
+install.packages("swirl")
+library("swirl")
+swirl()
 ```
+
+Once you enter your username, it prompts you to choose a course to install.
+Choose 1 for "R Programming" to learn the basics. 
+Then, enter 1 again and it will take you to a menu of courses you can choose from.
+
+## Quiz
 
