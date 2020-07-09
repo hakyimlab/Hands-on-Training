@@ -1,5 +1,5 @@
 ---
-title: "Hands-On Training"
+title: "Hands-On Training: Command Line"
 author: "Laura Vairus"
 date: "2020-07-02"
 output: workflowr::wflow_html
@@ -161,5 +161,7 @@ rm -rf Folder
 
 ## For Windows Users
 
+
+## Quiz
 
 

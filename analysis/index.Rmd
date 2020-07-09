@@ -9,3 +9,7 @@ editor_options:
 ---
 
 Welcome to my research website.
+
+- [Command Line Basics](https://lvairus.github.io/Hands-on-Training/commandline.html)
+
+- [R Basics](https://lvairus.github.io/Hands-on-Training/rbasics.html)
