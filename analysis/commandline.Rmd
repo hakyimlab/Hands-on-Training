@@ -16,7 +16,7 @@ The command line is an interface that allows you to store, manage, and process d
 Terminal is an app that gives you access to the command line. 
 <br/>
 
-(Note: This tutorial was made for Mac users. For Windows users, follow the tutorial [here](file:///Users/homeuser/Github/Hands-on-Training/docs/commandline.html#For_Windows_Users))
+(Note: This tutorial was made for Mac users. For Windows users, follow the tutorial [here](file:///Users/homeuser/Github/Hands-on-Training/docs/commandline.html#For_Windows_Users)) (WIP)
 <br/>
 
 To start, open Terminal using the computer's search button. 
