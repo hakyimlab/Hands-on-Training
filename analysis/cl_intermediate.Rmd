@@ -1,0 +1,17 @@
+---
+title: "Command Line Intermediate"
+author: ""
+date: "2020-07-15"
+output: workflowr::wflow_html
+editor_options:
+  chunk_output_type: console
+---
+
+## Introduction
+
+More advanced commands on command line 
+
+```{r}
+
+```
+
