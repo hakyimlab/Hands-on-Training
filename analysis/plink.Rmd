@@ -20,6 +20,8 @@ Command       |       Function
 --out         |       specifies what you want to name your output
 --freq        |       generates minor allele frequencies
 
+A more detailed tutorial for GWAS analysis is [here](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6001694/).
+
 
 ## Introduction
 
