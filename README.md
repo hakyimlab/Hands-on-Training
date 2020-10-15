@@ -13,7 +13,9 @@ curl http://localhost:5000/ukbrest/api/v1.0/genotype/17/positions/46018872/46026
   ```
 
 Next you have to index the bgen file 
+
 ```bgenix -g pnpo_37.bgen -index```
 
 Finally convert the bgenix file to vcf
+
 ```bgenix -g pnpo_37.bgen | qctool -g - -filetype bgen -s /mnt/data/samples/ukb19526_imp_chr1_v3_s487395.sample -og ~/PNPO_37.vcf```
