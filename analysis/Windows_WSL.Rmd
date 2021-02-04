@@ -7,6 +7,9 @@ editor_options:
   chunk_output_type: console
 ---
 
+# Moved to lab-notes
+https://lab-notes.hakyimlab.org/post/2020/08/10/windows-wsl/
+
 ## **Introduction**
 
 This is a guide to configuring a Windows system to utilize many of the tools that the Im Lab uses. 
